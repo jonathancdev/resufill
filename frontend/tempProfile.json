@@ -1,0 +1,78 @@
+{
+  "user": {
+    "first_name": "Maria",
+    "middle_name": "Fernanda",
+    "last_name": "Martinez",
+    "profession": "Copywriter"
+  },
+  "user_profile": "I am a skilled copywriter with over 5 years of experience creating compelling content for various industries. My ability to craft persuasive copy has helped my clients improve their online presence, increase sales, and establish their brand identity.",
+  "contact_information": {
+    "telephone": { "$numberDouble": "3238675309.0" },
+    "email": "maria@example.com",
+    "city": "Los Angeles",
+    "state": "California",
+    "country": "USA",
+    "links": [
+      "www.example.com/mfmcreative",
+      "www.example.com/mfmcreative",
+      "www.example.com/mfmcreative"
+    ]
+  },
+  "education": [
+    {
+      "institution": "University of California, Los Angeles (UCLA) ",
+      "degree": "Bachelor of Arts in English",
+      "description": "Studied literature, language, & writing",
+      "end_date": { "$date": { "$numberLong": "1464566400000" } }
+    },
+    {
+      "institution": "American Writers & Artists Inc. (AWAI)",
+      "degree": "Certificate in Copywriting",
+      "description": "",
+      "end_date": { "$date": { "$numberLong": "1447545600000" } }
+    }
+  ],
+  "experience": [
+    {
+      "title": "Copywriter",
+      "company": "Belo Marketing ",
+      "start_date": { "$date": { "$numberLong": "1520899200000" } },
+      "end_date": { "$date": { "$numberLong": "1646352000000" } },
+      "duties": [
+        "Crafted persuasive ad, web and social copy. ",
+        "Conducted research to inform messaging. ",
+        "Collaborated with designers to deliver high-quality content."
+      ]
+    },
+    {
+      "title": "Freelance Copywriter",
+      "company": "MM Creative",
+      "start_date": { "$date": { "$numberLong": "1487116800000" } },
+      "end_date": { "$date": { "$numberLong": "1519862400000" } },
+      "duties": [
+        "Wrote engaging blogs and articles.",
+        "Optimized content for SEO to improve web visibility."
+      ]
+    },
+    {
+      "title": "Copywriting Intern",
+      "company": "Zell Creative",
+      "start_date": { "$date": { "$numberLong": "1433116800000" } },
+      "end_date": { "$date": { "$numberLong": "1454284800000" } },
+      "duties": [
+        "Crafted engaging posts for multiple platforms. ",
+        "Analyzed metrics to inform content strategy."
+      ]
+    }
+  ],
+  "skills": [
+    "Strong writing and editing skills",
+    "Research and analysis",
+    "Marketing and advertising knowledge",
+    "Time management",
+    "Creativity"
+  ],
+  "createdAt": { "$date": { "$numberLong": "1677955291121" } },
+  "updatedAt": { "$date": { "$numberLong": "1678216814378" } },
+  "__v": { "$numberInt": "0" }
+}

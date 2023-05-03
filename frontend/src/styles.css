@@ -1,0 +1,55 @@
+html * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* override some browsers inferring dark color scheme */
+  color-scheme: light !important;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+body div::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body div {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+.preview-image {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.form_section {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid blue;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+
+#loadingbutton {
+  background-color: grey;
+  pointer-events: none;
+  cursor: default;
+}
